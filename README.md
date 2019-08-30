@@ -1,6 +1,6 @@
-# eslint-config-truffle
+# eslint-plugin-truffle
 
-ESLint config for Truffle development.
+ESLint plugin for Truffle development. It provides a custom environment containing Truffle global variables.
 
 ## Usage
 
@@ -9,9 +9,14 @@ In your `.eslintrc` file, add:
 ```javascript
 {
   // ...
-  "extends": [
+  "env": {
     // ...
-    "@4cadia/eslint-config-truffle"
+    "mocha": true, // for test files
+    "truffle/truffle": true
+  },
+  "plugins": [
+    // ...
+    "truffle"
     // ...
   ]
   // ...
