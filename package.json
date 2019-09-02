@@ -12,6 +12,7 @@
   },
   "keywords": [
     "eslint",
+    "eslintplugin",
     "truffle"
   ],
   "author": "Henrique Barcelos <henrique@4cadia.com>",
