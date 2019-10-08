@@ -1,6 +1,9 @@
 module.exports = {
   environments: {
-    truffle: {
+    get truffle() {
+      return this.globals;
+    },
+    globals: {
       globals: {
         artifacts: 'readonly',
         contract: 'readonly',
