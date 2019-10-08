@@ -12,7 +12,7 @@ In your `.eslintrc` file, add:
   "env": {
     // ...
     "mocha": true, // for test files
-    "truffle/truffle": true
+    "truffle/globals": true // same as "truffle/truffle": true
   },
   "plugins": [
     // ...
