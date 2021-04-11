@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-truffle",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "ESLint plugin for truffle development",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/janusplatform/eslint-plugin-truffle.git"
+    "url": "https://github.com/polymorpher/eslint-plugin-truffle.git"
   },
   "keywords": [
     "eslint",
@@ -19,7 +19,7 @@
   "license": "GPL-3.0-only",
   "homepage": "https://bitbucket.org/janusplatform/eslint-plugin-truffle#readme",
   "devDependencies": {
-    "eslint": "^6.2.2",
+    "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "husky": "^3.0.4",
@@ -27,7 +27,7 @@
     "prettier": "^1.18.2"
   },
   "peerDependencies": {
-    "eslint": "^6.2.2"
+    "eslint": "^7.0.0"
   },
   "husky": {
     "hooks": {
